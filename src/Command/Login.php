@@ -2,6 +2,8 @@
 
 namespace Juno\Command;
 
+date_default_timezone_set("Europe/London");
+
 use Buzz\Browser;
 use Buzz\Client\Curl;
 use Guzzle\Plugin\Cookie\Cookie;
